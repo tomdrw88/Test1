@@ -13,15 +13,16 @@ package com.example.test1;
  */
 public class Test1 {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
+		start();
 		run1();
 		run2();
 	}
 	
-	
+	private static void start() {
+		System.out.println("Start");
+	}
 	
 	private static void run1() {
 		System.out.println("Run 1");
@@ -31,5 +32,7 @@ public class Test1 {
 	private static void run2() {
 		System.out.println("Run 2");
 	}
+	
+
 
 }
