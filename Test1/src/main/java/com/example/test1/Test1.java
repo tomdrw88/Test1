@@ -17,7 +17,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		start();
 		run1();
-		run2();
+		runForest();
 	}
 	
 	private static void start() {
@@ -29,10 +29,8 @@ public class Test1 {
 	}
 	
 	
-	private static void run2() {
-		System.out.println("Run 2");
+	private static void runForest() {
+		System.out.println("run Forest, run");
 	}
-	
-
 
 }
