@@ -18,13 +18,18 @@ public class Test1 {
 	 */
 	public static void main(String[] args) {
 		run1();
-
+		run2();
 	}
 	
 	
 	
 	private static void run1() {
 		System.out.println("Run 1");
+	}
+	
+	
+	private static void run2() {
+		System.out.println("Run 2");
 	}
 
 }
