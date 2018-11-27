@@ -13,4 +13,11 @@ package com.example.test1.utils;
  */
 public class Test1Utils {
 
+	
+	public static void calculate(int max) {
+		System.out.println("Counting: ");
+		for (int i = 0; i <= max; i++)
+			System.out.println("--> " + i);
+		System.out.println("- - - - - - - - - - - - - - - - -");
+	}
 }

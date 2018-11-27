@@ -6,6 +6,8 @@
  */
 package com.example.test1;
 
+import com.example.test1.utils.Test1Utils;
+
 /**
  *<p></p><br>26 lis 2018
  * @author RS
@@ -18,6 +20,7 @@ public class Test1 {
 		start();
 		run1();
 		runForest();
+		Test1Utils.calculate(5);
 		stop();
 	}
 	
