@@ -18,19 +18,25 @@ public class Test1 {
 		start();
 		run1();
 		runForest();
+		stop();
 	}
 	
 	private static void start() {
-		System.out.println("Start");
+		System.out.println("START");
 	}
 	
 	private static void run1() {
-		System.out.println("Run 1");
+		System.out.println("RUN 1");
 	}
 	
 	
 	private static void runForest() {
-		System.out.println("run Forest, run");
+		System.out.println("RUN FOREST, RUN");
+	}
+	
+	
+	private static void stop() {
+		System.out.println("STOP");
 	}
 
 }
